@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Product A 1 3231",
+      "price": "119808098",
+      "img": "https://picsum.photos/200/200"
+    },
+    {
+      "id": 2,
+      "name": "product B",
+      "price": 111111,
+      "img": "https://picsum.photos/200/200"
+    },
+    {
+      "id": 3,
+      "name": "product C",
+      "price": 111111,
+      "img": "https://picsum.photos/200/200"
+    },
+    {
+      "id": 4,
+      "name": "Product Dddccd",
+      "price": "444",
+      "img": "https://picsum.photos/200/200"
+    }
+  ]
+}

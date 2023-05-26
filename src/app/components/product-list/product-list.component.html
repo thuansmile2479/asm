@@ -1,0 +1,25 @@
+<div class="container">
+    
+    <button class="btn btn-primary" routerLink="/add">
+        Add Product
+    </button>
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Stt</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Image</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr 
+            app-product-item 
+            *ngFor="let product of products, let i = index" 
+            [product]="product"  
+            [index]="i"
+            (onRemove)="removeItem(product.id)"></tr>
+        </tbody>
+    </table>
+</div>
